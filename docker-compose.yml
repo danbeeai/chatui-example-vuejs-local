@@ -1,0 +1,8 @@
+version: '1.0'
+
+services:
+  chatui-example-vuejs-local:
+    image: chatui-example-vuejs-local
+    build: .
+    ports:
+      - 8080:8080

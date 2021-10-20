@@ -27,8 +27,8 @@ RUN mkdir /app/web2
 RUN chmod 777 -R /app/web2
 
 # Install npm lastest
-RUN /usr/bin/npm install npm -g
-RUN /usr/bin/npm install -g vue-cli
+RUN /usr/bin/npm install -g npm@6.14.5 
+RUN /usr/bin/npm install -g vue-cli@2.9.6
 RUN echo 'npm vue-cli install' > /root/.bowerrc
 
 # package copy
